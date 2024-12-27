@@ -12,16 +12,35 @@
             <p>Hello, my name is</p>
             <h1>BLAINE</h1>
             <h1>COCHENSPARGER</h1>
+            </div>
         </div>
-        </div>
-        <div class="smaller_square1">
+
+        <button id="myBtn" type="button" class="smaller_square1">
             <h2>About Me</h2>
-        </div>
-        <div class="smaller_square2">
+        </button>
+
+        <button id="myBtn2" type="button" class="smaller_square2">
             <h2>Career</h2>
             <h2>Goals</h2>
-        </div>
-        
+        </button>
+        <!-- <div class="smaller_square2">
+            <h2>Career</h2>
+            <h2>Goals</h2>
+        </div> -->
+        <script>
+            const myBtn = document.getElementById("myBtn");
+
+            myBtn.addEventListener("click", function(e) {
+                document.body.innerHTML = "<h1>Hello</h1>";
+            });
+
+            const myBtn2 = document.getElementById("myBtn2");
+            
+            myBtn2.addEventListener("click", function(e) {
+                document.body.innerHTML = "<h1>Hello</h1>";
+            });
+        </script>
+
     </body>
 </html>
     
