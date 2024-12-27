@@ -3,9 +3,9 @@ h1 {
 
     font-family: arial, "Times New Roman";
 
-    font-size: 170%;
+    font-size: 30px;
 
-    font-weight: 200%;
+    font-weight: 500px;
 
     text-align: center;
 
@@ -45,8 +45,8 @@ body {
 }
 
 .square {
-    height: 70%;
-    width: 30%;
+    height: 150px;
+    width: 350px;
     border-radius: 15px;
     background-color: rgba(255, 255, 255, 0.197);
     text-align: center;
@@ -74,5 +74,19 @@ body {
     text-align: center;
     margin: -150px auto;
     margin-right: 70px;
-    line-height: 8px;
+    line-height: 5px;
+}
+
+@media only screen and (max-width: 600px){
+    .square {
+        width: 100%;
+    }
+
+    .smaller_square1 {
+        margin-left: 5%;
+    }
+
+    .smaller_square2 {
+        margin-right: 5%;
+    }
 }
