@@ -1,40 +1,78 @@
-
-
 h1 {
+    line-height: 15px;
+
     font-family: arial, "Times New Roman";
 
-    font-size: 22px;
-
-    font-style: italic;
+    font-size: 30px;
 
     font-weight: 500px;
 
     text-align: center;
 
-    text-decoration: underline;
-
-    text-indent: 0px;
-
     text-transform: uppercase;
 
     color: rgb(255, 255, 255);
 
-    word-spacing: 10px;
+    letter-spacing: 2px;
+}
 
-    letter-spacing: 5px;
-
-    line-height: 40px;
+h2 {
+    font-family: arial;
+    font-size: 30px;
+    font-weight: 200px;
+    color: white;
 }
 
 p {
+    font-family: arial;
     line-height: 30px;
 
-    color: rgb(0, 0, 0);
+    text-align: center;
 
-    text-indent: 50px;
+    color: rgb(234, 197, 223);
+
 }
 
 a{
     text-decoration: underline;
     
+}
+
+body {
+    background-size: cover;
+    background-image: linear-gradient(rgb(180, 108, 213), rgb(180, 71, 126));
+    background-attachment: fixed;
+}
+
+.square {
+    height: 150px;
+    width: 350px;
+    border-radius: 15px;
+    background-color: rgba(255, 255, 255, 0.197);
+    text-align: center;
+    border: 5px rgb(125, 21, 123) solid;
+    margin: 0 auto;
+}
+
+.smaller_square1 {
+    height: 90px;
+    width: 170px;
+    border-radius: 15px;
+    background-color: rgba(255, 255, 255, 0.197);
+    border: 5px rgb(125, 21, 123) solid;
+    text-align: center;
+    margin: 50px auto;
+    margin-left: 70px;
+}
+
+.smaller_square2 {
+    height: 90px;
+    width: 170px;
+    border-radius: 15px;
+    background-color: rgba(255, 255, 255, 0.197);
+    border: 5px rgb(125, 21, 123) solid;
+    text-align: center;
+    margin: -150px auto;
+    margin-right: 70px;
+    line-height: 8px;
 }
