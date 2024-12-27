@@ -45,6 +45,7 @@ body {
 }
 
 .square {
+    justify-content: center;
     height: 150px;
     width: 350px;
     border-radius: 15px;
@@ -83,10 +84,10 @@ body {
     }
 
     .smaller_square1 {
-        margin-left: 5%;
+        margin-left: 3%;
     }
 
     .smaller_square2 {
-        margin-right: 5%;
+        margin-right: 3%;
     }
 }
