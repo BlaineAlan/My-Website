@@ -33,6 +33,24 @@ p {
 
 }
 
+.p1{
+    font-family: arial;
+    line-height: 30px;
+
+    text-align: center;
+
+    color: rgb(255, 255, 255);
+}
+
+.p2{
+    font-family: arial;
+    line-height: 30px;
+
+    text-align: center;
+
+    color: rgb(255, 255, 255);
+}
+
 a{
     text-decoration: none;
     display: block;
@@ -84,6 +102,20 @@ body {
     line-height: 10px;
 }
 
+.smaller_square3 {
+    height: 100px;
+    width: 170px;
+    border-radius: 15px;
+    background-color: rgba(255, 255, 255, 0.197);
+    border: 5px rgb(255, 255, 255) solid;
+    text-align: center;
+    position: relative;
+    top: -20px;
+    left: 25%;
+    display:block;
+    line-height: 45px;
+}
+
 .back {
     height: 50px;
     width: 100px;
@@ -112,5 +144,18 @@ body {
 
     .smaller_square2 {
         left: 50%;
+    }
+
+    .img {
+        left: 0%;
+        top: 140%;
+    }
+
+    .p1 {
+        width: 100%;
+    }
+
+    .p2 {
+        top: 100%;
     }
 }
