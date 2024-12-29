@@ -29,29 +29,29 @@ p {
 
     text-align: center;
 
-    color: rgb(234, 197, 223);
+    color: rgb(255, 255, 255);
 
 }
 
 a{
-    text-decoration: underline;
-    
+    text-decoration: none;
+    display: block;
 }
 
 body {
     background-size: cover;
-    background-image: linear-gradient(rgb(180, 108, 213), rgb(180, 71, 126));
+    background-image: linear-gradient(rgb(47, 156, 219), rgb(255, 255, 255));
     background-attachment: fixed;
 }
 
 .square {
     justify-content: center;
-    height: 150px;
+    height: 95px;
     width: 350px;
     border-radius: 15px;
     background-color: rgba(255, 255, 255, 0.197);
     text-align: center;
-    border: 5px rgb(125, 21, 123) solid;
+    border: 5px rgb(255, 255, 255) solid;
     margin: 0 auto;
 }
 
@@ -60,10 +60,13 @@ body {
     width: 170px;
     border-radius: 15px;
     background-color: rgba(255, 255, 255, 0.197);
-    border: 5px rgb(125, 21, 123) solid;
+    border: 5px rgb(255, 255, 255) solid;
     text-align: center;
-    margin: 50px auto;
-    margin-left: 70px;
+    position: relative;
+    top: 50px;
+    right: 100%;
+    display:block;
+    line-height: 45px;
 
 }
 
@@ -72,11 +75,30 @@ body {
     width: 170px;
     border-radius: 15px;
     background-color: rgba(255, 255, 255, 0.197);
-    border: 5px rgb(125, 21, 123) solid;
+    border: 5px rgb(255, 255, 255) solid;
     text-align: center;
-    margin: -150px auto;
-    margin-right: 70px;
-    line-height: 5px;
+    position: relative;
+    top: -60px;
+    left: 150%;
+    display:block;
+    line-height: 10px;
+}
+
+.back {
+    height: 50px;
+    width: 100px;
+    border-radius: 15px;
+    background-color: rgba(255, 255, 255, 0.197);
+    border: 5px rgb(255, 255, 255) solid;
+    text-align: center;
+    line-height: 3px;
+
+}
+
+.img {
+    position: absolute;
+    top: 30%;
+    left: 55%;
 }
 
 @media only screen and (max-width: 600px){
@@ -85,10 +107,10 @@ body {
     }
 
     .smaller_square1 {
-        margin-left: 3%;
+        left: 2%;
     }
 
     .smaller_square2 {
-        margin-right: 3%;
+        left: 50%;
     }
 }
