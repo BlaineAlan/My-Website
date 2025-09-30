@@ -1,7 +1,7 @@
 :root {
     --text-color: black;
     --link-color: blue;
-    --background-color: rgb(185, 169, 216);
+    --background-color: rgb(212, 169, 216);
 }
 
 * {
@@ -25,6 +25,7 @@ a {
     text-decoration: none;
 }
 
+/* NAV MENU */
 nav {
     display: flex;
     justify-content: space-between;
@@ -58,6 +59,11 @@ nav .right a {
     flex: 5;
 }
 
+.summary-section .text h2 {
+    font-size: 30px;
+    padding: 5px 0;
+}
+
 .summary-section .headshot {
     flex: 2;
 }
@@ -65,6 +71,63 @@ nav .right a {
 .summary-section .headshot img {
     border-radius: 100px;
     width: 350px;
+}
+
+
+.summary-section .links a {
+    color: var(--text-color);
+    margin: 0 10px;
+    font-size: 20px;
+    border: 2px solid black;
+    border-radius: 10px;
+    padding: 10px;
+}
+
+/* SKILLS */
+#skills {
+    display: flex;
+    padding: 10px 50px;
+    margin: 50px 0;
+    background-color: white;
+    align-items: center;
+}
+
+#skills .text h2 {
+    padding: 5px 0;
+}
+
+#skills .attributes {
+    align-items: center;
+    font-size: 15px;
+}
+
+#skills .attributes h2 {
+    border: 2px solid black;
+    border-radius: 10px;
+}
+
+/* ABOUT ME */
+#about_me {
+    display: flex;
+    justify-content: space-between;
+    padding: 0 50px;
+    margin: 50px 0;
+}
+
+#about_me .text h2 {
+    padding: 5px 0;
+}
+
+/* PROJECTS */
+#projects {
+    display: flex;
+    justify-content: space-between;
+    padding: 0 50px;
+    margin: 50px 0;
+}
+
+#projects .text h2 {
+    padding: 5px 0;
 }
 
 @media (max-width: 700px) {
