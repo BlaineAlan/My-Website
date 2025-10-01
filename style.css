@@ -69,14 +69,18 @@ nav .right a {
 }
 
 .summary-section .headshot img {
-    border-radius: 100px;
+    border-radius: 50%;
     width: 350px;
+}
+
+.summary-section .links {
+    margin: 20px 0;
 }
 
 
 .summary-section .links a {
-    color: var(--text-color);
     margin: 0 10px;
+    color: var(--text-color);
     font-size: 20px;
     border: 2px solid black;
     border-radius: 10px;
@@ -86,10 +90,14 @@ nav .right a {
 /* SKILLS */
 #skills {
     display: flex;
-    padding: 10px 50px;
+    justify-content: space-between;
+    padding: 0 50px;
     margin: 50px 0;
-    background-color: white;
     align-items: center;
+}
+
+#skills .text {
+    flex: 5;
 }
 
 #skills .text h2 {
@@ -97,13 +105,17 @@ nav .right a {
 }
 
 #skills .attributes {
-    align-items: center;
-    font-size: 15px;
+    margin: 20px 0;
+    
 }
 
 #skills .attributes h2 {
+    margin: 0 10px;
+    color: var(--text-color);
+    font-size: 20px;
     border: 2px solid black;
     border-radius: 10px;
+    padding: 10px;
 }
 
 /* ABOUT ME */
@@ -111,7 +123,7 @@ nav .right a {
     display: flex;
     justify-content: space-between;
     padding: 0 50px;
-    margin: 50px 0;
+    margin: 100px 0;
 }
 
 #about_me .text h2 {
@@ -123,7 +135,7 @@ nav .right a {
     display: flex;
     justify-content: space-between;
     padding: 0 50px;
-    margin: 50px 0;
+    margin: 100px 0;
 }
 
 #projects .text h2 {
