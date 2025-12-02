@@ -14,14 +14,25 @@ html {
     scroll-behavior: smooth;
 }
 
+#myVideo {
+    position: fixed;
+    width: 100vw;
+    height: 100vh;
+    z-index: -1;
+    object-fit: cover;
+    background-color: rgb(10, 4, 31);
+}
+
 
 body {
     font-family: 'Lexend', sans-serif;
-    background-color: var(--background-color);
+    z-index: 1;
+    background-color: rgb(10, 4, 31);
 }
 
+
 a {
-    color: var(--link-color);
+    color: var(--text-color);
     text-decoration: none;
 }
 
@@ -59,16 +70,20 @@ nav .right a {
     padding-right: 20px;
 }
 
+/* INDEX */
+
 .container {
     max-width: 850px;
     margin: 0 auto;
+    background-color: rgba(10, 4, 31, .8);
+    border-radius: 10%;
 }
 
 .intro {
     color: var(--text-color);
     font-size: 50px;
     text-align: center;
-    padding-top: 100px;
+    margin-top: 150px;
 }
 
 .middle {
@@ -94,18 +109,19 @@ nav .right a {
     border-radius: 50%;
 }
 
+/* ABOUT ME */
+
 .aboutme {
     max-width: 900px;
     margin: 0 auto;
     text-align: center;
     margin-top: 50px;
-    border: 3px solid white;
     border-radius: 5%;
     padding: 15px;
-    background-color: rgb(15, 5, 31);
+    background-color: rgba(10, 4, 31, .8);
 }
 
-.oneten {
+.aboutmeh {
     color: rgb(233, 14, 167);
     font-size: 40px;
     text-align: left;
@@ -118,7 +134,62 @@ nav .right a {
     text-align: left;
 }
 
+.oneten_img {
+    margin-top: 10px;
+}
 
+.oneten_img img {
+    width: 350px;
+}
+
+.tbdbitl {
+    padding-left: 20px;
+}
+
+.tbdbitl img {
+    width: 400px;
+}
+
+.imgcont {
+   display: flex;
+   align-items: center;
+   justify-content: center;
+}
+
+.gow {
+    margin-top: 10px;
+}
+.gow img {
+    width: 200px;
+}
+
+.mario {
+    padding-left: 20px;
+    margin-top: 10px;
+}
+
+.mario img {
+    width: 400px;
+}
+
+.comp {
+   
+    padding: 10px;
+}
+
+.comp img {
+    width: 300px;
+}
+
+/* PROJECTS */
+
+.trackimg {
+    padding: 10px;
+}
+
+.trackimg img {
+    width: 150px;
+}
 
 @media (max-width: 700px) {
     /* NAV BAR */
