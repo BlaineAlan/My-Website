@@ -12,6 +12,7 @@
 
 html {
     scroll-behavior: smooth;
+    scrollbar-width: none;
 }
 
 #myVideo {
@@ -30,6 +31,9 @@ body {
     background-color: rgb(10, 4, 31);
 }
 
+::-webkit-scrollbar {
+  display: none;
+}
 
 a {
     color: var(--text-color);
