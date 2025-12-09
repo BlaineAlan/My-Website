@@ -90,7 +90,7 @@ nav .center a:hover {
 
 .right a {
     color: var(--text-color);
-    font-size: 22px;
+    font-size: 25px;
     margin: 0 5px;
     padding-right: 10px;
     transition: .18s all;
